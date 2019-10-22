@@ -8,4 +8,4 @@ modul(X,Y) :- X<0 , Y is (-1) * X.
 modul(X,Y) :- X>= 0, Y is X.
 
 suma(0, S) :- S is 0.
-suma(N, S) :- N1 is N-1, suma(N1, T), S is N + T.
+suma(N, S) :- N \=0, N1 is N-1, suma(N1, T), S is N + T.
