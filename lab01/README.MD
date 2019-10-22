@@ -8,7 +8,7 @@ Poniżej opisane zostały zależności rodzice - dzieci
 | magda i mariusz | onufry, aneta |
 | onufry i ola | ewa, nina |
 
-1. Zdefiniuj predykaty opisujące następujące związki miedzy osobami z tabeli:
+Zdefiniuj predykaty opisujące następujące związki miedzy osobami z tabeli:
 
 1. mezczyzna/1
 2. kobieta/1
@@ -20,7 +20,7 @@ Poniżej opisane zostały zależności rodzice - dzieci
 8. dziadek/1 - dziadek(X) = &#39;X jest czyimś dziadkiem&#39;
 9. potomek/2
 
-2. Napisz zapytania dające odpowiedzi na poniższe pytania:
+Napisz zapytania dające odpowiedzi na poniższe pytania:
 
 1. Czy Karol jest mężczyzną?
 2. Czy Zuzanna jest kobietą?
