@@ -85,8 +85,10 @@ Przykład:
 ?- iloczyn_skalarny(wektor(1,2,3), wektor(1,3,5), W). W=22 % 1*1 + 2*3 + 3*5
 
 
-Ćwiczenie 3
+**Ćwiczenie 3**
 
 Zdefiniować relację większy(X, Y, Z), której dwoma pierwszymi elementami są dwie liczby, a trzecim elementem jest większa z nich.
+
 Zdefiniować dwuargumentową relację moduł, w której drugim argumentem jest wartość bezwzględna pierwszego argumentu.
+
 Zdefiniować rekurencyjnie predykat suma(N, S), której S jest równe sumie liczb od 0 do N (włącznie). N jest liczbą naturalną.
