@@ -1,14 +1,22 @@
 mezczyzna(jacek).
+mezczyzna(michal).
 mezczyzna(karol).
-mezczyzna(kunegunda).
+mezczyzna(czarek).
+mezczyzna(roman).
+mezczyzna(witold).
+mezczyzna(franek).
 mezczyzna(mariusz).
 mezczyzna(onufry).
 
 kobieta(ala).
+kobieta(ola).
+kobieta(magda).
 kobieta(wanda).
 kobieta(kunegunda).
-kobieta(magda).
-kobieta(ola).
+kobieta(zuzanna).
+kobieta(aneta).
+kobieta(ewa).
+kobieta(nina).
 
 dziecko(ola, ala).
 dziecko(ola, jacek).
@@ -41,10 +49,9 @@ syn(X,Y) :- mezczyzna(X),dziecko(X,Y).
 corka(X,Y) :- kobieta(X),dziecko(X,Y).
 
 wnuk(X,Y) :- dziecko(X,Z),dziecko(Z,Y).
-dziadek(X,Y) :- wnuk(Y,X).
 
+dziadek(X,Y) :- wnuk(Y,X).
 dziadek(X) :- dziadek(X,_).
-rodzic(X,Y) :- dziecko(Y,X).
 
 potomek(X,Y) :- dziecko(X,Y).
-potomek(X,Y) :- dziecko(X,Z), potomek(Z,Y).
+potomek(X,Y) :- dziecko(X,Z),pomotek(Z,Y).
